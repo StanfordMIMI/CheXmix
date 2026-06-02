@@ -17,9 +17,8 @@ If you find this repository useful for your work, please cite the cite the paper
   author    = {Kumar, Ashwin and Holland, Robbie and Barrett, Corey and Kim, Jangwon and Varma, Maya and Chen, Zhihong and Gao, Yunhe and Zaharchuk, Greg and Taghavi, Tara and Kenthapadi, Krishnaram and Chaudhari, Akshay},
   title     = {CheXmix: Unified Generative Pretraining for Vision Language Models in Medical Imaging},
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
+  pages     = {9466--9476},
   year      = {2026},
-  eprint    = {2604.22989},
-  archivePrefix = {arXiv},
-  url       = {https://arxiv.org/abs/2604.22989}
+  note      = {arXiv preprint arXiv:2604.22989}
 }
 ```
