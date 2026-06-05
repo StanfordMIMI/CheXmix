@@ -8,7 +8,7 @@ Both the CheXmix model weights and VQ-GAN checkpoint are hosted on Hugging Face 
 
 ## 2. Configuration
 
-No configuration is required for default usage — weights are fetched from HF Hub and downloaded to the repo root directory on first run.
+No configuration is required for default usage — weights are fetched from HF Hub and downloaded to `chexmix/configs/checkpoints/` on first run.
 
 To use custom local weight paths instead, pass a `CheXmixConfig` explicitly:
 
