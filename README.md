@@ -12,7 +12,7 @@ For an editable installation, use the following commands to clone and install th
 
 ```bash
 conda create --name chexmix python==3.10
-conda activate **chexmix**
+conda activate chexmix
 
 git clone https://github.com/StanfordMIMI/CheXmix
 cd chexmix
