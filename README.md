@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2406.06512-b31b1b.svg?style=for-the-badge)](https://arxiv.org/abs/2604.22989)    [![Hugging Face](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-md.svg)](https://huggingface.co/stanfordmimi/CheXmix)
 
-*CheXmix is an early-fusion multi-modal chest x-ray vision-language model capable of fine-grained discriminative and generative tasks.* ([CVPR Findings 2026](https://arxiv.org/abs/2604.22989)).
+*CheXmix is an early-fusion multi-modal chest x-ray vision-language model capable of fine-grained discriminative and generative tasks.* (CVPR Findings 2026).
 
 ![Key Graphic](documentation/assets/overview.svg)
 

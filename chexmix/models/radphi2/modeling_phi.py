@@ -48,7 +48,7 @@ from .configuration_phi import PhiConfig
 try:
     from flash_attn import flash_attn_func, flash_attn_varlen_func
     from flash_attn.bert_padding import index_first_axis, pad_input, unpad_input  # noqa
-except:
+except ImportError:
     pass
 
 

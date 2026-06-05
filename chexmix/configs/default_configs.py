@@ -13,7 +13,9 @@ HF_REPO = "StanfordMIMI/CheXmix"
 class VQGANConfig:
     vq_gan_path: str = os.path.join(BASE_DIR, "vq_gan.yaml")
     vq_gan_ckpt_path: str = field(
-        default_factory=lambda: hf_hub_download(repo_id=HF_REPO, filename="vqgan.ckpt", local_dir=CHECKPOINTS_DIR)
+        default_factory=lambda: hf_hub_download(
+            repo_id=HF_REPO, filename="vqgan.ckpt", local_dir=CHECKPOINTS_DIR
+        )
     )
     vq_gan_device: str = "cuda:0"
 
@@ -22,7 +24,9 @@ class VQGANConfig:
 @dataclass
 class CheXmixConfig:
     model_path: str = field(
-        default_factory=lambda: hf_hub_download(repo_id=HF_REPO, filename="model.safetensors", local_dir=CHECKPOINTS_DIR)
+        default_factory=lambda: hf_hub_download(
+            repo_id=HF_REPO, filename="model.safetensors", local_dir=CHECKPOINTS_DIR
+        )
     )
     vq_gan_config: VQGANConfig = field(default_factory=VQGANConfig)
     ORIGINAL_VOCAB_SIZE = 50368
