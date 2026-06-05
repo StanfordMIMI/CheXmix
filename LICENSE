@@ -1,0 +1,34 @@
+Chexmix Research License
+Release Date: June 5, 2026
+
+This Chexmix Research License ("Agreement") governs your access and use of Chexmix (as defined below). Chexmix is a combined work containing derivative elements of the Chameleon Materials (licensed from Meta Platforms, Inc.) and radphi2 (licensed under the MIT License). By accessing, using, or distributing any portion of Chexmix, you agree to be bound by the terms of this Agreement.
+
+1. Definitions.
+   1. "Chexmix" means the combined software, models, algorithms, and derivative works created by The Board of Trustees of the Leland Stanford Junior University distributed under this Agreement.
+   2. "Noncommercial Research Uses" means noncommercial research use cases related to research, development, education, processing, or analysis and in each case, is not primarily intended for commercial advantage or monetary compensation to you or others.
+   3. "Chameleon Materials" means the underlying proprietary models, software, and documentation created by Meta Platforms, Inc. integrated within Chexmix.
+
+2. License Rights and Redistribution.
+   1. Grant of Rights. Subject to your compliance with this Agreement, you are hereby granted a non-exclusive, worldwide, non-transferable, and royalty-free limited license to use, reproduce, distribute, copy, create derivative works of, and make modifications to Chexmix solely for Noncommercial Research Uses.
+   2. Redistribution. If you distribute or make Chexmix (or any derivative works thereof) available to a third party, you may only do so under the terms of this Agreement and must provide a copy of this Agreement to such third party.
+   3. Attribution Requirements:
+      a. If you publish research results performed using Chexmix, you must include the following acknowledgment: "This material is based on work supported by the Chameleon Research License, Copyright (c) Meta Platforms, Inc. All Rights Reserved, and the Chexmix Research License, Copyright (c) 2026 The Board of Trustees of the Leland Stanford Junior University."
+   4. Acceptable Use: Your use of Chexmix must adhere to the Meta Chameleon Acceptable Use Policy (https://ai.meta.com/resources/models-and-libraries/chameleon-use-policy/).
+
+3. Restrictions.
+   You will not, and will not permit any third party to:
+   1. Use Chexmix or any outputs/results of Chexmix for any commercial uses.
+   2. Use or download Chexmix if you are located in a comprehensively sanctioned jurisdiction or listed on any U.S. or non-U.S. restricted parties list.
+
+4. Disclaimer of Warranty & Limitation of Liability.
+   CHEXMIX IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS, COPYRIGHT HOLDERS, OR META PLATFORMS, INC. BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE.
+
+==============================================================================
+ATTRIBUTION & THIRD-PARTY NOTICES
+==============================================================================
+Chameleon is licensed under the Chameleon Research License, 
+Copyright (c) Meta Platforms, Inc. All Rights Reserved.
+
+This project also incorporates elements of radphi2, which is licensed 
+under the MIT License:
+Copyright (c) 2024 The Board of Trustees of the Leland Stanford Junior University
