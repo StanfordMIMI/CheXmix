@@ -1,0 +1,50 @@
+[project]
+name = "chexmix"
+version = "0.0.1"
+requires-python = ">=3.10"
+description = "CheXmix: Unified Generative Pretraining for Vision Language Models in Medical Imaging"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Ashwin Kumar", email = "akkumar@stanford.edu"},
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Healthcare Industry",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = [
+    "numpy>=1.26.4", # tested with 1.26.4
+    "torch>=2.6.0", # tested with 2.6.0
+    "transformers==4.40.0", # tested with 4.40.0
+    "torchvision>=0.21.2", # tested with 0.21.0
+    "pillow>=11.3.0", # tested with 11.3.0
+    "safetensors>=0.5.3", # tested with 0.5.3
+    "dataclasses>=0.6", # tested with 0.6
+    "protobuf>=4.25.8", # tested with 4.25.8
+    "accelerate>=1.9.0", # tested with 1.9.0
+    "rich", # tested with 14.3.2
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "pre-commit",
+    "mdformat"
+]
+
+[build-system]
+requires = ["setuptools>=67.8.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["chexmix", "chexmix.models", "chexmix.utils"]
+exclude = ["documentation"]
+
+[tool.codespell]
+skip = '.git,*.pdf,*.svg, *.png'
