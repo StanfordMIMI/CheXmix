@@ -47,7 +47,7 @@ model = CheXmix(ReportGeneration=True)
 
 #### For inference on a demo chest x-ray, please check out the [general demo](documentation/demo.py).
 
-#### For additional information, please read the [inference documentation](documentation/inference.md)
+#### For additional information, please read the [inference documentation](documentation/inference.md).
 
 ## 📎 Citation
 
